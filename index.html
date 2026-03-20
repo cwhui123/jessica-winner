@@ -24,6 +24,14 @@
     .btn.alt{background:#6f42c1;color:#fff;margin-left:8px}
   </style>
 </head>
+  <script>
+(function () {
+  if (!sessionStorage.getItem('refreshed_once')) {
+    sessionStorage.setItem('refreshed_once', 'yes');
+    location.reload();
+  }
+})();
+</script>
 <body>
 <h1>最近200期六合彩數據面板</h1>
 <p id="last-update">數據更新至：載入中…</p>
