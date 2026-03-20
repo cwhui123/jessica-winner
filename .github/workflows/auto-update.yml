@@ -1,4 +1,4 @@
-name: Auto Update Mark Six
+name:Commit and push changes
 
 on:
   schedule:
