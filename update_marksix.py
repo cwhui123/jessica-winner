@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
-SOURCE_URL = "https://lottery.hk/mark-six/results"
+SOURCE_URL = "https://lottery.hk/en/mark-six/results"
 EXCEL_FILE = "marksix_latest_200.xlsx"
 HTML_FILE = "index.html"
 
